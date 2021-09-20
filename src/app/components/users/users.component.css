@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:white;
+}
+.container{
+    margin: 40px auto;
+    max-width: 70%;
+}
+.row{
+    background: rgb(189, 188, 188);
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px 12px grey;
+}
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.form-control{
+    height: 50px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
